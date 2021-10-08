@@ -49,23 +49,28 @@ const setDisplay = () => {
         appTitle.style.color = '#e624af';
         appTitle.style.fontFamily = 'DotGothic16', sans-serif; 
     } else if (selectedApp === 'app') {
-        cleanUp()       
+        cleanUp()      
+         comingSoon('#3df9ea', 'Ropa Sans')
         appTitle.style.color = '#3df9ea';
         appTitle.style.fontFamily = 'Ropa Sans', sans-serif;
     } else if (selectedApp === 'blog') {
-        cleanUp()       
+        cleanUp()    
+        comingSoon('#316436', 'Felipa')   
         appTitle.style.color = '#316436';
         appTitle.style.fontFamily = 'Felipa', cursive;
     } else if (selectedApp === 'shop') {
-        cleanUp()       
+        cleanUp()   
+        comingSoon('#b95358', 'Major Mono Display')    
         appTitle.style.color = '#b95358';
         appTitle.style.fontFamily = 'Major Mono Display', monospace;
     } else if (selectedApp === 'note') {
-        cleanUp()       
+        cleanUp()   
+        comingSoon('#7dcfa8', 'Fredericka the Great')    
         appTitle.style.color = '#7dcfa8';
         appTitle.style.fontFamily = 'Fredericka the Great', cursive;
     } else if (selectedApp === 'grave') {
-        cleanUp()       
+        cleanUp()   
+        comingSoon('#0e0e0e', 'Creepster')    
         appTitle.style.color = '#0e0e0e';
         appTitle.style.fontFamily = 'Creepster', cursive;
     } else {

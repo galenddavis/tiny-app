@@ -110,4 +110,4 @@ const generateGame = (color) => {
         
 }
 
-document.addEventListener("DOMContentLoaded", generateGame)
+// document.addEventListener("DOMContentLoaded", generateGame)
