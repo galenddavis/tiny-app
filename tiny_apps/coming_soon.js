@@ -8,6 +8,7 @@ let comingSoon = (color, font) => {
     const context = canvas.getContext('2d')
 
     context.font = ` 40px ${font}`
+    context.fillStyle = `${color}`
     context.fillText('Coming Soon...', 10, 40)
 
     const display = document.getElementById('display');
