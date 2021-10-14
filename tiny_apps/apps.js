@@ -24,15 +24,15 @@ let apps = {
         color: '#e624af',
         // font: 'DotGothic16', sansserif
     },
+    art: {
+        name: 'art',
+        color: '#5433be',
+        // font: 'Permanent Marker', cursive
+    },
     grave: {
         name: 'grave',
         color: 'red',
         background: '#000000'
         // font: 'Creepster', cursive
-    },
-    art: {
-        name: 'art',
-        color: '#5433be',
-        // font: 'Permanent Marker', cursive
     },
 }

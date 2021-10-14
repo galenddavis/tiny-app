@@ -62,6 +62,24 @@ aside button {
     width: 75%;
 }
 
+#notepad {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.note {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    height: 20%;
+    border: 1px solid #eaeaea;
+    border-radius: 0.25rem;
+    padding: 1rem;
+}
+
 
 header, footer {
     grid-column: 1 / 4;

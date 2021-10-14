@@ -35,7 +35,9 @@ debugger
 
 const cleanUp = () => {
     document.body.style.backgroundColor = '#FFFFFF'
+    document.body.style.color = '#000000'
     display.innerHTML = '';
+    options.innerHTML = '';
 }
 
 // const setDisplay = () => {
@@ -93,6 +95,9 @@ const render = () => {
         case('grave'):
             generateGrave();
             break;
+        case('note'):
+            generateNote(appList[0].color);
+            break;
         default: 
             return;
     }
@@ -102,7 +107,8 @@ const setDisplay = () => {
     let selectedApp = appList[0];
     appTitle.innerHTML = selectedApp.name;
     appTitle.style.color = selectedApp.color
-    render();
+    render(selectedApp.name);
+    
 }
 
 // assign button functionality
@@ -137,4 +143,5 @@ document.getElementById('left-button').onclick = rotateLeft
 
 document.addEventListener("DOMContentLoaded", () => {
     setDisplay()
+    // generateNote()
 })
