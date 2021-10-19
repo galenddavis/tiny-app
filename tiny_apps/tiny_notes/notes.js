@@ -1,4 +1,3 @@
-
 let notes = []
 
 const generateNote = (color) => {
@@ -49,6 +48,7 @@ const generateNote = (color) => {
     input.type = 'text';
     input.placeholder = "Your note here..."
     const button = document.createElement('button')
+    button.type = 'submit'
     button.innerHTML = "Submit"
 
     form.addEventListener('submit', e => {

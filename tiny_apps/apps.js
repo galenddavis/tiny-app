@@ -4,8 +4,8 @@ let apps = {
         color: '#3df9ea',
         // font: 'Ropa Sans', sansserif
     },
-    blog: {
-        name: 'blog',
+    math: {
+        name: 'math',
         color: '#316436',
         // font: 'Felipa', cursive
     },

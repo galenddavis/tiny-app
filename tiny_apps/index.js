@@ -16,7 +16,6 @@ const options = document.getElementById('options')
 const carrots = document.querySelectorAll('.carrot')
 
 appTitle.innerText = appList[0]
-debugger
 
 // toggle theme for grave
 // const toggleDark = () => {
@@ -89,6 +88,9 @@ const render = () => {
         case('game'):
             generateGame(appList[0].color);
             break;
+        case('math'):
+            generateMath(appList[0].color);
+            break;
         case('art'):
             generateArt(appList[0].color);
             break;
@@ -142,6 +144,6 @@ document.getElementById('right-button').onclick = rotateRight
 document.getElementById('left-button').onclick = rotateLeft
 
 document.addEventListener("DOMContentLoaded", () => {
-    setDisplay()
-    // generateNote()
+    // setDisplay()
+    generateMath()
 })
